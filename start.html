@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="favicon/5726775.png">
+</head>
+<body><br>
+    <header>
+        <nav class="navbar navbar-light bg-transparent ">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="#">
+                    <img src="img/7630510.png" alt="" width="80" height="74" class="d-inline-block align-text-center">
+                    <strong class="jojp">Money For Students.</strong>
+                  </a>
+    
+              <ul class="nav nav-pills justify-content-end ">
+                <li class="nav-item">
+                  <a class="nav-link" href="main.html">Home<span></span></a>
+                </li>
+    
+                
+                    <div class="dropdown">Content
+                        <span class="left-icon"></span>
+                        <span class="right-icon"></span>
+                        <div class="items">
+                            <a href="content.html" style="--i:1;"><span></span>Ways</a>
+                        </div>
+                    </div>
+                
+    
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact<span></span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="quiz.html" >Quiz<span></span></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+
+
+        <div class="qa_box">
+          <div class="qa_header">
+            <span>Score: <span id="score">0</span></span>
+            <span id="countdown">0</span>
+          </div>
+          <div class="qa_body">
+            <div class="qa_set active">
+              <h4>1. How many ways to earn money were indicated in the main part?</h4>
+              <div class="qa_ans_row">
+                <input type="radio" name="a1">
+                <span>5</span>
+              </div>
+
+              <div class="qa_ans_row">
+                <input type="radio" name="a1">
+                <span>7</span>
+              </div>
+
+              <div class="qa_ans_row">
+                <input type="radio" name="a1" valid="valid">
+                <span>6</span>
+              </div>
+
+              <div class="qa_ans_row">
+                <input type="radio" name="a1">
+                <span>8</span>
+              </div>
+
+            </div>
+            <!--2-->
+            <div class="qa_set">
+              <h4>2. What ways to earn money were presented on the main page?</h4>
+              <div class="qa_ans_row">
+                <input type="radio" name="a2">
+                <span>Waiter, Miner, Programmer</span>
+              </div>
+
+              <div class="qa_ans_row">
+                <input type="radio" name="a2">
+                <span>Freelancer, Deliver, ContentMaker</span>
+              </div>
+
+              <div class="qa_ans_row">
+                <input type="radio" name="a2" valid="valid">
+                <span>Video Editing, Freelancer, Waiter</span>
+              </div>
+
+              <div class="qa_ans_row">
+                <input type="radio" name="a2">
+                <span>Tutoring, Creativity, Deliver</span>
+              </div>
+
+            </div>
+            <!--3-->
+            <div class="qa_set">
+              <h4>3. What applications and services will help a tutor?</h4>
+              <div class="qa_ans_row">
+                <input type="radio" name="a3">
+                <span>Olx, Halyk Bank, Kaspi</span>
+              </div>
+
+              <div class="qa_ans_row">
+                <input type="radio" name="a3">
+                <span>Instagram, Twitter, Vk</span>
+              </div>
+
+              <div class="qa_ans_row">
+                <input type="radio" name="a3" >
+                <span>Kaspi, Telegram, Facebook</span>
+              </div>
+
+              <div class="qa_ans_row">
+                <input type="radio" name="a3" valid="valid">
+                <span>Olx, Kaspi, Instagram</span>
+              </div>
+
+            </div>
+            <!--4-->
+            <div class="qa_set">
+              <h4>4. Which of these methods is primitive for a student?</h4>
+              <div class="qa_ans_row">
+                <input type="radio" name="a4">
+                <span>Deliver</span>
+              </div>
+
+              <div class="qa_ans_row">
+                <input type="radio" name="a4" valid="valid">
+                <span>Waiter</span>
+              </div>
+
+              <div class="qa_ans_row">
+                <input type="radio" name="a4" >
+                <span>Tutor</span>
+              </div>
+
+              <div class="qa_ans_row">
+                <input type="radio" name="a4" >
+                <span>Programmer</span>
+              </div>
+
+            </div>
+            <!--5-->
+            <div class="qa_set">
+              <h4>5. A way to make money that everyone has heard of?</h4>
+              <div class="qa_ans_row">
+                <input type="radio" name="a5" valid="valid">
+                <span>ContaentMaker</span>
+              </div>
+
+              <div class="qa_ans_row">
+                <input type="radio" name="a5">
+                <span>Normal Work</span>
+              </div>
+
+              <div class="qa_ans_row">
+                <input type="radio" name="a5" >
+                <span>Waiter</span>
+              </div>
+
+              <div class="qa_ans_row">
+                <input type="radio" name="a5" >
+                <span>Programmer</span>
+              </div>
+
+            </div>
+            <!--Score-->
+            <div class="qa_set">
+              <h4 class="jupiter">Your Total Score <span id="totalScore">0</span> out of 100</h4>
+            </div>
+
+          </div>
+          <div class="qa_footer">
+            <span class="btn1" id="skip">Skip</span>
+          </div>
+        </div>
+<br><br><br>
+        <div class="center-container" onclick="toggleText()">
+            <h1 id="attentionText" class="text1" style="text-shadow: 2px 2px 3px #e4f1f1, 0 0 5px #9d9e9e; font-size: 90px;color:white">Thanks For Attention!</h1>
+          </div>
+
+
+        <!--Audio-->
+        <section class="audio-back">
+          <div class="audio">
+            <audio id="myAudio">
+              <source src="audio/king-crimson-sound-effect_QnjzH1n.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+        </section>
+
+        <script>
+            let isTextVisible = true;
+
+            function toggleText() {
+                const attentionText = document.getElementById("attentionText");
+
+                if (isTextVisible) {
+                    attentionText.innerHTML = "See you later!";
+                } else {
+                    attentionText.innerHTML = "Thanks For Attention!";
+                }
+
+                isTextVisible = !isTextVisible;
+            }
+        </script>
+
+        <script src="script.js"></script>
+        <script src="audio.js"></script>
+        <script src="custom.js"></script>
+</body>
+</html>
